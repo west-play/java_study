@@ -1,4 +1,4 @@
-package jan26;
+package mar27.add;
 
 class  Product /*extends Object*/{
 	private String name; //멤버 변수 선언
