@@ -1,4 +1,12 @@
-package verify.exam03;
+package mar28.verify.exam03;
+
+//public class Dog implements Soundable {
+//	@Override
+//	public String sound() {
+//		return "¸Û¸Û";
+//	}
+//}
+
 
 public class Dog implements Soundable {
 	@Override

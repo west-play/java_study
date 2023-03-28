@@ -1,4 +1,4 @@
-package sec06.exam01_interface_extends;
+package mar28.sec06.exam01_interface_extends;
 
 public class Example {
 	public static void main(String[] args) {

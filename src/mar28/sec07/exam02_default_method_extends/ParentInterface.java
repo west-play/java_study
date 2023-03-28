@@ -1,7 +1,16 @@
-package sec07.exam02_default_method_extends;
+package mar28.sec07.exam02_default_method_extends;
+
+//public interface ParentInterface {
+//    public void method1();
+//    public default void method2() { /*실행문*/ }
+//}
+
+
 
 public interface ParentInterface {
-    public void method1();
-    public default void method2() { /*실행문*/ }
+	public void method1();
+	public default void method2() {
+		
+	}
 }
 

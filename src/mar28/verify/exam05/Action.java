@@ -1,4 +1,9 @@
-package verify.exam05;
+package mar28.verify.exam05;
+
+//public interface Action {
+//	void work();
+//}
+
 
 public interface Action {
 	void work();

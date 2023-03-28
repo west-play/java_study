@@ -6,5 +6,8 @@ public class RemoteControlExample {
 		
 		RemoteControl rc = tv;
 		Searchable searchable = tv;
+		
+		rc.setMute(true);
+		
 	}
 }

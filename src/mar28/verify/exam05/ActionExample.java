@@ -1,14 +1,32 @@
-package verify.exam05;
+package mar28.verify.exam05;
 
-public class ActionExample {
+//public class ActionExample {
+//	public static void main(String[] args) {
+//		Action action = new Action() {
+//			@Override
+//			public void work() {
+//				System.out.println("복사를 합니다.");
+//			}
+//		};
+//		
+//		action.work();
+//	}
+//}
+
+
+public class ActionExample{
 	public static void main(String[] args) {
 		Action action = new Action() {
+
 			@Override
 			public void work() {
-				System.out.println("복사를 합니다.");
-			}
+				System.out.println("복사를 합니다.");	
+			}	
 		};
 		
+		action.work();
+		action.work();
+		action.work();
 		action.work();
 	}
 }

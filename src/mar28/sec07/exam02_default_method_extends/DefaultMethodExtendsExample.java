@@ -1,12 +1,24 @@
-package sec07.exam02_default_method_extends;
+package mar28.sec07.exam02_default_method_extends;
 
 public class DefaultMethodExtendsExample {
 	public static void main(String[] args) {
+//		ChildInterface1 ci1 = new ChildInterface1() {
+//			@Override
+//			public void method1() { /*실행문*/ }
+//			@Override
+//			public void method3() { /*실행문*/ }
+//		};
 		ChildInterface1 ci1 = new ChildInterface1() {
+
 			@Override
-			public void method1() { /*실행문*/ }
+			public void method1() {
+				// TODO Auto-generated method stub
+				
+			}
+
 			@Override
-			public void method3() { /*실행문*/ }
+			public void method3() {}
+			
 		};
 		
 		ci1.method1();

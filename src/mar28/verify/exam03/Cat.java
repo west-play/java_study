@@ -1,4 +1,12 @@
-package verify.exam03;
+package mar28.verify.exam03;
+
+//public class Cat implements Soundable {
+//	@Override
+//	public String sound() {
+//		return "¾ß¿Ë";
+//	}
+//}
+
 
 public class Cat implements Soundable {
 	@Override

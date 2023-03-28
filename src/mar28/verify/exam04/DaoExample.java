@@ -1,4 +1,20 @@
-package verify.exam04;
+package mar28.verify.exam04;
+
+//public class DaoExample {
+//	public static void dbWork(DataAccessObject dao) {
+//		dao.select();
+//		dao.insert();
+//		dao.update();
+//		dao.delete();
+//	}
+//	
+//	public static void main(String[] args) {
+//		dbWork(new OracleDao());
+//		dbWork(new MySqlDao());
+//	}
+//}
+
+
 
 public class DaoExample {
 	public static void dbWork(DataAccessObject dao) {

@@ -8,6 +8,7 @@ public class CarExample {
 		
 		myCar.tires[0] = new KumhoTire();
 		myCar.tires[1] = new KumhoTire();
+		myCar.tires[2] = new KumhoTire();
 		
 		myCar.run();
 	}

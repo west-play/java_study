@@ -9,7 +9,7 @@ public class RemoteControlExample {
 		rc.setVolume(10);
 		rc = new Audio();
 		rc.turnOn();
-		
+		rc.setMute(true);
 		
 		
 	}
