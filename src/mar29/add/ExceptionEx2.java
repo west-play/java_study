@@ -1,4 +1,4 @@
-package jan28.add;
+package mar29.add;
 
 class ExceptionEx2 {
 	public static void main(String args[]) {
