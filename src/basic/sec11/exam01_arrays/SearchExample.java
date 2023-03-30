@@ -1,4 +1,4 @@
-package sec11.exam01_arrays;
+package basic.sec11.exam01_arrays;
 
 import java.util.Arrays;
 
@@ -22,7 +22,7 @@ public class SearchExample {
 		Member m3 = new Member("김민수");
 		Member[] members = { m1, m2, m3 };
 		Arrays.sort(members);
-		index = Arrays.binarySearch(members, m1);
+		index = Arrays.binarySearch(members, m1); //저장된거중에 m1을 찾겠따
 		System.out.println("찾은 인덱스: " + index);
 	}
 }

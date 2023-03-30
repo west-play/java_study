@@ -1,4 +1,4 @@
-package sec15.exam01_format;
+package basic.sec15.exam01_format;
 
 import java.text.DecimalFormat;
 
@@ -33,7 +33,7 @@ public class DecimalFormatExample {
 		df = new DecimalFormat("-#.0");
 		System.out.println( df.format(num) );
 		
-		df = new DecimalFormat("#,###.0");
+		df = new DecimalFormat("#,###.0");		//¼Ò¼öÁ¡ À§·Î ¼¼°³¾¿ ²÷¾îÁÜ
 		System.out.println( df.format(num) );
 		
 		df = new DecimalFormat("0.0E0");
@@ -42,10 +42,10 @@ public class DecimalFormatExample {
 		df = new DecimalFormat("+#,### ; -#,###");
 		System.out.println( df.format(num) );
 		
-		df = new DecimalFormat("#.# %");
+		df = new DecimalFormat("#.# %");		//100°öÇÑ 
 		System.out.println( df.format(num) );
 		
-		df = new DecimalFormat("\u00A4 #,###");
+		df = new DecimalFormat("\u00A4 #,###");	//È­Æó´ÜÀ§
 		System.out.println( df.format(num) );
 	}
 }

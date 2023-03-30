@@ -1,8 +1,14 @@
-package sec13.exam01_math;
+package basic.sec13.exam01_math;
 
 public class MathRandomExample {
+//	public static void main(String[] args) {
+//		int num = (int) (Math.random()*6) + 1;
+//		System.out.println("林荤困 传: " + num);
+//	}
+	
+	
 	public static void main(String[] args) {
-		int num = (int) (Math.random()*6) + 1;
-		System.out.println("林荤困 传: " + num);
+		int num = (int) (Math.random()*6) +1;
+		System.out.println((num + num)/2);
 	}
 }

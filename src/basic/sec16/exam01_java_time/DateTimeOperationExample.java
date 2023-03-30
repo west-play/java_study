@@ -1,4 +1,4 @@
-package sec16.exam01_java_time;
+package basic.sec16.exam01_java_time;
 
 import java.time.LocalDateTime;
 

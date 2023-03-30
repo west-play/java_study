@@ -1,4 +1,4 @@
-package sec12.exam01_wrapper;
+package basic.sec12.exam01_wrapper;
 
 public class ValueCompareExample {
 	public static void main(String[] args) {

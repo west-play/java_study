@@ -1,16 +1,21 @@
-package sec14.exam02_calendar;
+package basic.sec14.exam02_calendar;
 
-import java.util.*;
+//import java.security.Timestamp;
+import java.util.Calendar;
+import java.util.Date;
 
 public class CalendarExample {
 	public static void main(String[] args) {
+		
+		Date d = new Date();
 		Calendar now = Calendar.getInstance();
+//		Timestamp tt = new Timestamp(System.currentTimeMillis());
 		
 		int year    = now.get(Calendar.YEAR);                
-		int month  = now.get(Calendar.MONTH) + 1;          
-		int day    = now.get(Calendar.DAY_OF_MONTH);     
+		int month  = now.get(Calendar.MONTH) + 1;       //0~11
+		int day    = now.get(Calendar.DAY_OF_MONTH);    //한달중에 오늘이 몇
 		
-		int week    = now.get(Calendar.DAY_OF_WEEK);        
+		int week    = now.get(Calendar.DAY_OF_WEEK);    //1~7  
 		String strWeek = null;
 		switch(week) {
 			case Calendar.MONDAY:

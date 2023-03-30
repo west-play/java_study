@@ -1,4 +1,4 @@
-package sec12.exam01_wrapper;
+package basic.sec12.exam01_wrapper;
 
 public class AutoBoxingUnBoxingExample {
 	public static void main(String[] args) {

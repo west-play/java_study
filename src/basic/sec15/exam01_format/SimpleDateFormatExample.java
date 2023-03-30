@@ -1,4 +1,4 @@
-package sec15.exam01_format;
+package basic.sec15.exam01_format;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

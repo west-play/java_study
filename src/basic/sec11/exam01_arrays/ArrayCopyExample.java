@@ -1,4 +1,4 @@
-package sec11.exam01_arrays;
+package basic.sec11.exam01_arrays;
 
 import java.util.Arrays;
 
@@ -8,10 +8,10 @@ public class ArrayCopyExample {
 		
 		//방법1
 		char[] arr2 = Arrays.copyOf(arr1, arr1.length);
-		System.out.println(Arrays.toString(arr2));
+		System.out.println(Arrays.toString(arr2));		//베열을 문자열 형태로
 		
 		//방법2
-		char[] arr3 = Arrays.copyOfRange(arr1, 1, 3);
+		char[] arr3 = Arrays.copyOfRange(arr1, 1, 3);	//1부터 3전까지
 		System.out.println(Arrays.toString(arr3));		
 		
 		//방법3

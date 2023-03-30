@@ -1,4 +1,4 @@
-package sec16.exam01_java_time;
+package basic.sec16.exam01_java_time;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -14,21 +14,21 @@ public class DateTimeCreateExample {
 		LocalDate currDate = LocalDate.now();
 		System.out.println("현재 날짜: " + currDate);
 
-		LocalDate targetDate = LocalDate.of(2024, 5, 10);
+		LocalDate targetDate = LocalDate.of(2023, 8, 25);
 		System.out.println("목표 날짜: " + targetDate + "\n");
 
 		//시간 얻기
 		LocalTime currTime = LocalTime.now();
 		System.out.println("현재 시간: " + currTime);
 		
-		LocalTime targetTime = LocalTime.of(6, 30, 0, 0);
+		LocalTime targetTime = LocalTime.of(5, 40, 0, 0);
 		System.out.println("목표 시간: " + targetTime + "\n");
 		
 		//날짜와 시간 얻기
 		LocalDateTime currDateTime = LocalDateTime.now();
 		System.out.println("현재 날짜와 시간: " + currDateTime);
 		
-		LocalDateTime targetDateTime = LocalDateTime.of(2024, 5, 10, 6, 30, 0, 0);
+		LocalDateTime targetDateTime = LocalDateTime.of(2023, 8, 25, 12, 50, 0, 0);
 		System.out.println("목표 날짜와 시간: " + targetDateTime + "\n");
 		
 		//협정 세계시와 시간존(TimeZone)
@@ -50,5 +50,7 @@ public class DateTimeCreateExample {
 			System.out.println("동일한 시간입니다.");
 		}
 		System.out.println("차이(nanos): " + instant1.until(instant2, ChronoUnit.NANOS));
+		
+		//until 비교
 	}
 }
