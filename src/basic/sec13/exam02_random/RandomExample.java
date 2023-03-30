@@ -61,6 +61,11 @@ public class RandomExample {
 		Arrays.sort(selectNumber);
 		Arrays.sort(winningNumber);
 		boolean result = Arrays.equals(selectNumber, winningNumber);
-		syso
+		System.out.println("당첨 여부: ");
+		if(result) {
+			System.out.println("1등에 당첨되셨습니다.");
+		} else {
+			System.out.println("당첨되지 않았습니다.");
+		}
 	}
 }

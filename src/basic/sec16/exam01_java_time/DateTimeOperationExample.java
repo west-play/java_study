@@ -27,6 +27,10 @@ public class DateTimeOperationExample {
 		LocalDateTime  targetDateTime = now
 				.plusYears(1)
 				.minusMonths(2)
+				.plusDays(3)
+				.plusHours(0)
+				.minusMinutes(5)
+				.minusSeconds(666666666)
 				;
 		System.out.println("¿¬»êÈÄ: " + targetDateTime);
 	}
