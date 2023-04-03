@@ -16,7 +16,7 @@ public class BufferedOutputStreamExample {
 		long start = 0;
 		long end = 0;
 		
-		fis = new FileInputStream("C:/JavaProgramming/source/chap18/src/sec05/exam05_bufferedoutputstream/forest.jpg");
+		fis = new FileInputStream("/Users/seoyeonju/eclipse-workspace/JavaSE/src/apr3/sec05/exam05_bufferedoutputstream/forest.jpg");
 		bis = new BufferedInputStream(fis);
 		fos = new FileOutputStream("C:/Temp/forest.jpg");				
 		start = System.currentTimeMillis();
@@ -28,9 +28,9 @@ public class BufferedOutputStreamExample {
 		fos.close(); 	bis.close();  fis.close();
 		System.out.println("사용하지 않았을 때: " + (end-start) + "ms");
 		
-		fis = new FileInputStream("C:/JavaProgramming/source/chap18/src/sec05/exam05_bufferedoutputstream/forest.jpg");
+		fis = new FileInputStream("/Users/seoyeonju/eclipse-workspace/JavaSE/src/apr3/sec05/exam05_bufferedoutputstream/forest.jpg");
 		bis = new BufferedInputStream(fis);
-		fos = new FileOutputStream("C:/Temp/forest.jpg");		
+		fos = new FileOutputStream("/Users/seoyeonju/eclipse-workspace/forest.jpg");		
 		bos = new BufferedOutputStream(fos);
 		start = System.currentTimeMillis();
 		while((data = bis.read()) != -1) {
